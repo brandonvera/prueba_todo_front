@@ -20,7 +20,7 @@
 				.then(data => {
 					this.$swal({
 					  icon: 'success',
-					  title: 'Cierre de sesión eéxitoso',
+					  title: 'Cierre de sesión éxitoso',
 					})
 					localStorage.removeItem('jwt')
 					this.$router.push('/')
@@ -28,7 +28,7 @@
 				.catch(e => {
 					this.$swal({
 					  icon: 'success',
-					  title: 'Cierre de sesión eéxitoso',
+					  title: 'Cierre de sesión éxitoso',
 					})
 					localStorage.removeItem('jwt')
 					this.$router.push('/')
