@@ -1,6 +1,8 @@
 <template>
 	<div class="row justify-content-center">
 		<div class="col-md-4">
+			<div class="card">
+			<h3 class="m-2">Registro</h3>
 			<form class="m-2" @submit.stop.prevent="register">
 			  <div class="form-group">
 			    <label for="exampleInputEmail2">Nombre de Usuario</label>
@@ -21,6 +23,7 @@
 			  <button type="submit" class="btn btn-primary">Registrarse</button>
 			</form>
 			<h6>¿Ya tienes cuenta? <router-link to="/">Iniciar sesión</router-link></h6>
+			</div>
 		</div>
 	</div>
 </template>
